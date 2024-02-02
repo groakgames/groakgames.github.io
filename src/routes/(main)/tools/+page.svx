@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+	
+</script>
 <style lang="postcss">
 	.area-link {
 		color: var(--fg-color);
@@ -15,7 +19,7 @@
 			.area-link-title {
 				margin: 0;
 			}
-			
+
 			> div {
 				display: flex;
 				gap: 1ch;
@@ -34,7 +38,7 @@
 
 ## By Groak Games
 
-<a class="area-link" href="/virtual-strings">
+<a class="area-link" href="{base}/virtual-strings">
 	<div class="panel">
 		<h3 class="area-link-title">VirtualStrings</h3>
 		<div>

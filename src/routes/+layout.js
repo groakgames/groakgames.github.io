@@ -1,12 +1,10 @@
 export const prerender = true;
 
-import { base } from '$app/paths'
-
 export const load = () => {
 	return {
 		title: "Groak Games",
 		description: "The official Groak Games website!",
-		icon: `${base}/favicon.ico`,
+		icon: "/favicon.ico",
 		header: {
 			title: "Groak Games",
 			link: "/",
