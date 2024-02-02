@@ -1,5 +1,6 @@
 <script>
-	import "$lib/styles/animations.css"
+	import "$lib/styles/animations.css";
+	import { base } from "$app/paths";
 </script>
 
 <style lang="postcss">
@@ -31,8 +32,8 @@
 
 <div class="panel">
 	<div>
-		<a href="https://youtube.com/@groakgames"><img src="/assets/icons/youtube.svg" alt="">youtube</a>
-		<a href="https://twitch.tv/groakgames"><img src="/assets/icons/twitch.svg" alt="">twitch</a>
+		<a href="https://youtube.com/@groakgames"><img src="{base}/assets/icons/youtube.svg" alt="">youtube</a>
+		<a href="https://twitch.tv/groakgames"><img src="{base}/assets/icons/twitch.svg" alt="">twitch</a>
 	</div>
-	<a href="https://discord.gg/SGBMkGYJbG"><img src="/assets/icons/discord.svg" alt="">discord</a>
+	<a href="https://discord.gg/SGBMkGYJbG"><img src="{base}/assets/icons/discord.svg" alt="">discord</a>
 </div>
