@@ -2,7 +2,6 @@
 	import "$lib/styles/style.css"
 	import { page } from '$app/stores';
 	import Socials from '$lib/components/Socials.svelte';
-	import { base } from '$app/paths';
 </script>
 
 <style lang="postcss">
@@ -78,14 +77,14 @@
 	<meta name="description" content={$page.data.description}/>
 	<meta property="og:title" content={$page.data.title} />
 	<meta property="og:description" content={$page.data.description}/>
-  <link rel="icon" href={base}{$page.data.icon} />
+  <link rel="icon" href={$page.data.icon} />
 </svelte:head>
 <div id="full-page">
 	<header>
 		<h1><a href="{$page.data.header.link}">{$page.data.header.title}</a></h1>
 		<nav>
 			{#each $page.data.header.navigation as navElement}
-				<a href="{base}{navElement.link}">{navElement.name}</a>
+				<a href="{navElement.link}">{navElement.name}</a>
 			{/each}
 		</nav>
 	</header>
@@ -94,10 +93,10 @@
 			<Socials/>
 			<div class="panel hide-on-small">
 				<nav>
-					<a href="{base}">Groak Games</a>
+					<a href="/">Groak Games</a>
 					<hr width=80%/>
 					Projects
-					<a href="{base}/virtual-strings">VirtualStrings</a>
+					<a href="/virtual-strings">VirtualStrings</a>
 				</nav>
 			</div>
 		</div>

@@ -1,8 +1,3 @@
-<script>
-  import { base } from "$app/paths";
-</script>
-
-
 <style>
   .icon-heading {
     img {
@@ -16,10 +11,10 @@
 </style>
 
 <div class="icon-heading">
-  <img src="{base}/assets/icons/virtualstrings.svg" alt="" height=64/>
+  <img src="/assets/icons/virtualstrings.svg" alt="" height=64/>
   <h1>VirtualStrings</h1>
 </div>
 
-VirtualStrings is a highly customizable avatar puppeteering ([VTuber](https://wikipedia.org/wiki/VTuber)) software and digital stage. Users can create 2D and 3D environments for avatars to be displayed and interact with props in. User-created [modules]({base}/virtual-strings/modules) can be used to add new features and hook into external events. Wires can be hooked up on the fly connecting events to actions creating an unique automated stage for every user.
+VirtualStrings is a highly customizable avatar puppeteering ([VTuber](https://wikipedia.org/wiki/VTuber)) software and digital stage. Users can create 2D and 3D environments for avatars to be displayed and interact with props in. User-created [modules](/virtual-strings/modules) can be used to add new features and hook into external events. Wires can be hooked up on the fly connecting events to actions creating an unique automated stage for every user.
 
 VirtualStrings is currently in heavy development approaching it's first public release in the first quarter of 2024. It will be available for free under the [AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html) license on it's [GitHub](https://github.com/groakgames/VirtualStrings) page once made public.

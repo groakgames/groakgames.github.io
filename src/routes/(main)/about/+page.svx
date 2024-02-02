@@ -1,7 +1,3 @@
-<script>
-	import { base } from "$app/paths";
-</script>
-
 <style lang="postcss">
 	#bios {
 		display: flex;
@@ -25,9 +21,9 @@
 </style>
 
 # About
-Groak Games is a group dedicated to creating [games]({base}/games), [tools]({base}/tools), and [educational resources]({base}/learn).
+Groak Games is a group dedicated to creating [games](/games), [tools](/tools), and [educational resources](/learn).
 
-We believe [tools]({base}/tools) and [educational materials]({base}/learn) should be [**FREE**](https://www.gnu.org/philosophy/free-sw.html) to empower creators! Accessibility is a priority for the things we create. Please contact us if something we have created is inaccessible to your ability or other factor.
+We believe [tools](/tools) and [educational materials](/learn) should be [**FREE**](https://www.gnu.org/philosophy/free-sw.html) to empower creators! Accessibility is a priority for the things we create. Please contact us if something we have created is inaccessible to your ability or other factor.
 
 
 
@@ -36,7 +32,7 @@ We believe [tools]({base}/tools) and [educational materials]({base}/learn) shoul
 		<h2>Groak</h2>
 		<span class="pronouns">he/they</span>
 		<div>
-			<img src="{base}/assets/imgs/groak.png" height=128 alt="" />
+			<img src="/assets/imgs/groak.png" height=128 alt="" />
 			<p><i>Ribbit!</i> I am a small green frog. I used to live stream but now I provide moral support! Find me chilling on a lilly pad, eating bugs.</p>
 		</div>
 	</div>
@@ -45,7 +41,7 @@ We believe [tools]({base}/tools) and [educational materials]({base}/learn) shoul
 		<h2>Fig</h2>
 		<span class="pronouns">they/them</span>
 		<div>
-			<img src="{base}/assets/imgs/fig.png" height=128 alt="" />
+			<img src="/assets/imgs/fig.png" height=128 alt="" />
 			<p>Hello! I am the manager of Groak Games. Enjoyer of pressing keys on my keyboard and making things.</p>
 		</div>
 	</div>
