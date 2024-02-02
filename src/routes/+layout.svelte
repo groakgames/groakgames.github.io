@@ -82,7 +82,7 @@
 </svelte:head>
 <div id="full-page">
 	<header>
-		<h1><a href="{base}{$page.data.header.link}">{$page.data.header.title}</a></h1>
+		<h1><a href="{$page.data.header.link}">{$page.data.header.title}</a></h1>
 		<nav>
 			{#each $page.data.header.navigation as navElement}
 				<a href="{base}{navElement.link}">{navElement.name}</a>
