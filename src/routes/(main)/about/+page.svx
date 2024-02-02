@@ -25,9 +25,9 @@
 </style>
 
 # About
-Groak Games is a group dedicated to creating [games](/games), [tools](/tools), and [educational resources](/learn).
+Groak Games is a group dedicated to creating [games]({base}/games), [tools]({base}/tools), and [educational resources]({base}/learn).
 
-We believe [tools](/tools) and [educational materials](/learn) should be [**FREE**](https://www.gnu.org/philosophy/free-sw.html) to empower creators! Accessibility is a priority for the things we create. Please contact us if something we have created is inaccessible to your ability or other factor.
+We believe [tools]({base}/tools) and [educational materials]({base}/learn) should be [**FREE**](https://www.gnu.org/philosophy/free-sw.html) to empower creators! Accessibility is a priority for the things we create. Please contact us if something we have created is inaccessible to your ability or other factor.
 
 
 
