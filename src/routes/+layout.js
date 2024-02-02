@@ -7,7 +7,7 @@ export const load = () => {
 		icon: "/favicon.ico",
 		header: {
 			title: "Groak Games",
-			link: "/",
+			link: "",
 			navigation: [
 				{ name:"games", link:"/games" },
 				{ name:"tools", link:"/tools" },

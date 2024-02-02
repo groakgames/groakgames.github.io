@@ -94,7 +94,7 @@
 			<Socials/>
 			<div class="panel hide-on-small">
 				<nav>
-					<a href="{base}/">Groak Games</a>
+					<a href="{base}">Groak Games</a>
 					<hr width=80%/>
 					Projects
 					<a href="{base}/virtual-strings">VirtualStrings</a>
