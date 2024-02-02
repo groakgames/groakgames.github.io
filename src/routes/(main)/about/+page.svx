@@ -1,3 +1,6 @@
+<script>
+	import { base } from "$app/paths";
+</script>
 
 <style lang="postcss">
 	#bios {
@@ -33,7 +36,7 @@ We believe [tools](/tools) and [educational materials](/learn) should be [**FREE
 		<h2>Groak</h2>
 		<span class="pronouns">he/they</span>
 		<div>
-			<img src="/assets/imgs/groak.png" height=128 alt="" />
+			<img src="{base}/assets/imgs/groak.png" height=128 alt="" />
 			<p><i>Ribbit!</i> I am a small green frog. I used to live stream but now I provide moral support! Find me chilling on a lilly pad, eating bugs.</p>
 		</div>
 	</div>
@@ -42,7 +45,7 @@ We believe [tools](/tools) and [educational materials](/learn) should be [**FREE
 		<h2>Fig</h2>
 		<span class="pronouns">they/them</span>
 		<div>
-			<img src="/assets/imgs/fig.png" height=128 alt="" />
+			<img src="{base}/assets/imgs/fig.png" height=128 alt="" />
 			<p>Hello! I am the manager of Groak Games. Enjoyer of pressing keys on my keyboard and making things.</p>
 		</div>
 	</div>

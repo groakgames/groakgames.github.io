@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths";
 </script>
 
 
@@ -15,7 +16,7 @@
 </style>
 
 <div class="icon-heading">
-  <img src="assets/icons/virtualstrings.svg" alt="" height=64/>
+  <img src="{base}/assets/icons/virtualstrings.svg" alt="" height=64/>
   <h1>VirtualStrings</h1>
 </div>
 

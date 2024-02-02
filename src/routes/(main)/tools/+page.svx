@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
-	
 </script>
+
 <style lang="postcss">
 	.area-link {
 		color: var(--fg-color);
@@ -42,7 +42,7 @@
 	<div class="panel">
 		<h3 class="area-link-title">VirtualStrings</h3>
 		<div>
-			<img src="assets/icons/virtualstrings.svg" alt="" width=64/>
+			<img src="{base}/assets/icons/virtualstrings.svg" alt="" width=64/>
 			<p>Highly customizable avatar puppeteering software and digital stage.</p>
 		</div>
 	</div>
