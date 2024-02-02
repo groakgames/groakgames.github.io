@@ -1,0 +1,18 @@
+# Modules
+
+The core of what powers VirtualStrings are the user-created modules. They add new features and can hook into external programs or APIs. Guides on how to create custom modules will be available near the first release of VirtualStrings. There will be some modules created by us, of those modules planned for the first release are:
+- VirtualStrings Core
+
+  Adds events and actions for managing the stage and camera positioning.
+
+- Google MediaPipe Tracking
+
+  Adds Face and Body tracking from webcam input through [Google MediaPipe](https://developers.google.com/mediapipe).
+
+- VRM Puppet
+
+  Adds a puppet type for the common [VRM](https://vrm.dev/en/) model format.
+
+- Twitch.tv Events
+
+  Events from twitch.tv chat and API to wire with.

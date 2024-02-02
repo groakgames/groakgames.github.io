@@ -1,0 +1,66 @@
+/* Main style sheet */
+@import url("mooli.css");
+:root {
+	--fg-color: #ecf3ef;
+	--bg-color: #2e2a36;
+	--panel-color: #12082542;
+	--sub-panel-color: #110a2083;
+	--a-color: #76e7d4;
+	--a-filter: brightness(0) saturate(100%) invert(78%) sepia(73%) saturate(251%) hue-rotate(112deg) brightness(95%) contrast(92%);
+	--b-color: #e375f0;
+	--b-filter: brightness(0) saturate(100%) invert(67%) sepia(75%) saturate(3660%) hue-rotate(239deg) brightness(102%) contrast(88%);
+	--c-color: #f9f06b;
+	--c-filter: brightness(0) saturate(100%) invert(94%) sepia(45%) saturate(824%) hue-rotate(342deg) brightness(102%) contrast(95%);
+}
+
+html {
+	font-family: "Mooli";
+	color: var(--fg-color);
+	background-color: var(--bg-color);
+}
+
+body {
+	margin: 0;
+}
+
+
+h1 {
+	color: var(--a-color);
+}
+h2 {
+	color: var(--b-color);
+}
+h3 {
+	color: var(--c-color);
+}
+
+a {
+	color: var(--a-color);
+	text-decoration: none;
+	
+	&:hover {
+		color: var(--b-color);
+		text-decoration: underline;
+	}
+}
+
+
+.panel {
+	background-color: var(--panel-color);
+	padding: 1.25ch 1.25ch;
+	border-radius: 1.25em;
+	.panel {
+		background-color: var(--sub-panel-color);
+	}
+}
+
+
+/*
+	Keep this under everything else so it has higher
+	priority for equivalent specifiers
+*/
+@media screen and (max-width: 700px){
+	.hide-on-small {
+		display: none !important;
+	}
+}

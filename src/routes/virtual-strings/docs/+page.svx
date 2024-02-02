@@ -1,0 +1,3 @@
+# Documentation
+
+Documentation for VirtualStrings will be added near the first public release.
