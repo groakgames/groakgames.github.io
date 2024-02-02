@@ -32,8 +32,6 @@
 		> #mid-page {
 			display: grid;
 			grid-template-columns: 1fr 60% 1fr;
-			/* flex-direction: row;
-			flex-grow: 1; */
 			gap: 1ch;
 			
 			@media screen and (max-width: 700px){
