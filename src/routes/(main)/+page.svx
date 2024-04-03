@@ -2,6 +2,6 @@
 
 This website is a work in progress... Thanks for visiting!
 
-We are working on the VTuber software [VirtualStrings](/virtual-strings) which we hope to create a first release in the first quarter of 2024!
+We are working on the VTuber software [VirtualStrings](/virtual-strings) which we hope to create a first release in May of 2024!
 
 
