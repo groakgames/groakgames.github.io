@@ -4,7 +4,7 @@ export const load = () => {
 	return {
 		title: "Groak Games",
 		description: "The official Groak Games website!",
-		icon: "/favicon.ico",
+		icon: "/assets/icons/groak_icon.svg",
 		header: {
 			title: "Groak Games",
 			link: "/",

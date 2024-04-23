@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.021004"
+   height="48"
+   viewBox="0 0 48.021001 48.000001"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="icon.png"
+   inkscape:export-xdpi="768"
+   inkscape:export-ydpi="768"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#dfdfdf"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8"
+     inkscape:cx="17.25"
+     inkscape:cy="34.0625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="-7.9786015"
+       originy="-7.9999999"
+       spacingx="0.99999994"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient23"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop23" />
+      <stop
+         style="stop-color:#cdedec;stop-opacity:1;"
+         offset="1"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient20"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#37ff5f;stop-opacity:1;"
+         offset="0"
+         id="stop21" />
+      <stop
+         style="stop-color:#00ed9f;stop-opacity:1;"
+         offset="1"
+         id="stop22" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient20"
+       id="linearGradient22"
+       x1="36"
+       y1="32"
+       x2="48"
+       y2="56"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient23"
+       id="linearGradient24"
+       x1="43"
+       y1="43"
+       x2="48"
+       y2="56"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Forground"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.9786014,-9.9999995)">
+    <g
+       id="g27"
+       inkscape:label="Groak"
+       inkscape:export-filename="./g27.png"
+       inkscape:export-xdpi="1023.54"
+       inkscape:export-ydpi="1023.54">
+      <path
+         style="display:inline;fill:url(#linearGradient22);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         d="m 28,55.999999 h 8 c 12,0 20,-4.642286 20,-11 V 24 c 0,0 0,-12 -10,-12 -8,0 -10,6 -10,6 H 32 28 C 28,18 26,12 18,12 8,11.999998 7.9786012,24 7.9786012,24 L 8,44.999999 c 0,7 8,11 20,11 z"
+         id="path1"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:label="Body"
+         sodipodi:insensitive="true" />
+      <ellipse
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.30186;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path2"
+         cy="21"
+         cx="18"
+         rx="4"
+         ry="5"
+         inkscape:label="Eye-L" />
+      <ellipse
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.30186;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path2-5"
+         cy="21"
+         cx="46"
+         rx="3.9999998"
+         ry="5"
+         inkscape:label="Eye-R" />
+      <path
+         style="display:inline;fill:url(#linearGradient24);fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 16,54.217529 c 0,-2.21753 0,-14.21753 16,-14.21753 16,0 16,12 16,14 0,0 -4,2 -12,2 h -8 c -8,0 -12,-1.78247 -12,-1.78247 z"
+         id="path22"
+         sodipodi:nodetypes="cscccc"
+         inkscape:label="Stomach" />
+    </g>
+  </g>
+</svg>
